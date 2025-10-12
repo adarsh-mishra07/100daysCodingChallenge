@@ -1,0 +1,97 @@
+/* Base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    background: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    position: relative;
+}
+
+footer {
+    background: #12c3ea;
+    color: white;
+    padding: 1.5rem;
+    position: relative;
+    text-align: center;
+}
+
+#theme-toggle {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: white;
+    border: none;
+    color: #4a90e2;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#skills {
+    width: 80%;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.skill {
+    margin-bottom: 1.5rem;
+}
+
+.progress-container {
+    position: relative;
+    background: #e0e0e0;
+    border-radius: 10px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #4a90e2;
+    width: 0;
+    border-radius: 10px;
+    transition: width 1.5s ease-in-out;
+}
+
+.percentage {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Hover Effect */
+.progress-container:hover .progress-bar {
+    filter: brightness(1.3);
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #121212;
+    color: #f1f1f1;
+}
+
+.dark-mode #skills {
+    background: #1e1e1e;
+    box-shadow: none;
+}
+
+.dark-mode header {
+    background: #333;
+}
