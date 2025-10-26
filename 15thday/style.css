@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+    width: 100px;
+    height: 120px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+
+.controls {
+    margin: 10px 0;
+    text-align: center;
+}
+
+input [input="range"] {
+    width: 200px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#speakBtn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#stopBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
