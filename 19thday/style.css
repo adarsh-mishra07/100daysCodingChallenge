@@ -1,0 +1,64 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 350px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.inc-exp-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.money.plus {
+    color: green;
+}
+
+.money.minus {
+    color: red;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.list li {
+    background: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #6c63ff;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #5848d9;
+}
