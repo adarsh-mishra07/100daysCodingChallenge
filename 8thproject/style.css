@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 100px;
+    border-radius: 20px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px gray;
+}
+
+.container h1 {
+    white-space: nowrap;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0078ff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bcc;
+}
+
+#priceInfo {
+    margin-top: 20px;
+    font-size: 18px;
+}

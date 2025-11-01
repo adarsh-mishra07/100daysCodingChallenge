@@ -9,7 +9,7 @@ async function getJoke() {
         jokeDiv.innerHTML = `${data.setup}🤡 ${data.punchline}`;
 
     } catch (error) {
-        jokeDiv.innerHTML = "Oops! Couldn't load a jpoke";
+        jokeDiv.innerHTML = "Oops! Couldn't load a joke";
     }
 }
 jokeBtn.addEventListener("click", getJoke);
