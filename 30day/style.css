@@ -1,0 +1,145 @@
+/* Basic clean styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #f8f9fb, #e8f0ff);
+    font-family: Inter, system-ui, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.chat-app {
+    width: 100%;
+    max-width: 720px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+header {
+    padding: 18px 22px;
+    border-bottom: 1px solid #eee;
+    background: #f7f9ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 20px;
+    color: #222;
+}
+
+.login {
+    padding: 18px 22px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.login input,
+.login select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.login button {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background: #2563eb;
+    color: #fff;
+    cursor: pointer;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+}
+
+.messages {
+    height: 380px;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #fff, #fbfdff);
+    border: 1px solid #eee;
+}
+
+.msg {
+    margin: 8px 0;
+    max-width: 75%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.04);
+}
+
+.msg.you {
+    background: #e6f3ff;
+    margin-left: auto;
+    border-top-right-radius: 4px;
+}
+
+.msg.other {
+    background: #f3f4f6;
+    margin-right: auto;
+    border-top-left-radius: 4px;
+}
+
+.meta {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+    padding-top: 8px;
+}
+
+form input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background: #10b981;
+    color: #fff;
+    cursor: pointer;
+}
+
+.leave {
+    margin-top: 8px;
+    background: #ef4444;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px 16px;
+    font-size: 13px;
+    color: #666;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+}
